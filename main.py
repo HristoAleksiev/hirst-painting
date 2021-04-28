@@ -5,7 +5,7 @@ import random as r
 # extracts the 10 most common colors from the picture given
 extraction = gram.extract("hirst_paint.jpg", 10)
 
-# covert extracted colors from picture into list of unnamed tuples, usable for rgb colors in turtle
+# covert extracted color palette from picture into list of unnamed tuples, usable for rgb colors in Turtle
 color_palette = []
 for color in extraction:
     color_palette.append((color.rgb.r, color.rgb.g, color.rgb.b))
