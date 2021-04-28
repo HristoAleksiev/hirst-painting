@@ -10,7 +10,7 @@ color_palette = []
 for color in extraction:
     color_palette.append((color.rgb.r, color.rgb.g, color.rgb.b))
 
-# initial screen and turtle setup
+# initial setup for screen and turtle
 tur = Turtle()
 tur.speed(7)
 tur.hideturtle()
